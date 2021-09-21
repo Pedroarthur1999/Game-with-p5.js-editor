@@ -176,7 +176,6 @@ function draw() {
         }
         if (a == 290) {
             descida = false
-
         }
         if (a == 290) {
             subida = true
@@ -207,7 +206,6 @@ function draw() {
         }
         if (b == 10) {
             subida2 = false
-
         }
         if (b == 10) {
             descida2 = true
@@ -238,7 +236,6 @@ function draw() {
         if (x1 == -20 && y1 == -20) {
             image(img3, 575, 80, 80, 180)
             plataforma = true
-
         }
         if (plataforma == true) {
             image(img3, 575, 80, 80, 180)
@@ -312,7 +309,6 @@ function draw() {
         //Portal fase 2
 
         if (x1 == -20 && y1 == -20 && x2 == -20 && y2 == -20) {
-
             image(img3, 575, 80, 80, 180)
             plataforma = true
         }
@@ -323,7 +319,6 @@ function draw() {
             estadodisparo = true
             dx = x
             dy = y
-
             mySound.setVolume(5.10);
             mySound.play();
         }
@@ -332,7 +327,6 @@ function draw() {
             stroke(220, 0, 0)
             ellipse(dx + 50, dy + 20, 6, 6)
             dx = dx + 10
-
             if (dx > width)
                 estadodisparo = false
         }
@@ -342,7 +336,6 @@ function draw() {
             fill(255, 165, 0)
             image(img2, xball, yball[i], 20, 20)
             xball = xball - random(6, 10)
-
 
             if (xball < 0) {
                 xball = 650
@@ -373,6 +366,7 @@ function draw() {
     //fase 3
 
     //variaveis fase 3
+
     xball6 = 650
     posicao2 = 70
 
@@ -661,7 +655,6 @@ function draw() {
             dy = y
             lifea -= 12
             pontos = pontos + 10
-
         }
         if (dx > width) {
             estadodisparo = false
@@ -687,7 +680,6 @@ function draw() {
         if (dist(x, y, 575, 80) < 60 + 20) {
             fase = 6
             plataforma2 = false
-
         }
         //Disparo 
         if (dist(dx, dy, alienx, alieny) < 4 + 40) {
@@ -750,7 +742,7 @@ function draw() {
 
         //Fundos
         capa = false
-        som.setVolume(1.3)
+        som.setVolume(1.3) 
         image(img, 0, 0, 650, 350)
         image(img4, xx - 450, yy - 175, 400, 400)
         plataforma2 = false
