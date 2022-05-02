@@ -8,10 +8,14 @@
 
 ![fase_1](/nivel_1.png)
 
-## Fase 1
+## Fase 2
 
-![fase_1](/nivel_2.png)
+![fase_2](/nivel_2.png)
 
-## Fase 1
+## Fase 3
 
-![fase_1](/nivel_3.png)
+![fase_3](/nivel_3.png)
+
+## Game Over
+
+![Game_over](/game_over.png)
